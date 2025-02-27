@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FAQ - Freelance Finder</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-dark text-light">
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Freelance Finder</a>
+    </div>
+  </nav>
+
+  <main class="container my-4">
+    <h1>Frequently Asked Questions</h1>
+    <hr>
+    <div class="accordion" id="faqAccordion">
+      <div class="accordion-item bg-secondary text-light">
+        <h2 class="accordion-header" id="faqHeadingOne">
+          <button class="accordion-button collapsed bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne" aria-expanded="false" aria-controls="faqOne">
+            How do I create a listing?
+          </button>
+        </h2>
+        <div id="faqOne" class="accordion-collapse collapse" aria-labelledby="faqHeadingOne" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Simply log in, click “New Listing,” and fill out the required information like title, category, location, and more.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item bg-secondary text-light">
+        <h2 class="accordion-header" id="faqHeadingTwo">
+          <button class="accordion-button collapsed bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">
+            How does escrow payment work?
+          </button>
+        </h2>
+        <div id="faqTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Once a project is agreed upon, funds are held securely until project milestones are completed and approved.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item bg-secondary text-light">
+        <h2 class="accordion-header" id="faqHeadingThree">
+          <button class="accordion-button collapsed bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree" aria-expanded="false" aria-controls="faqThree">
+            What is AI Proposal Generator?
+          </button>
+        </h2>
+        <div id="faqThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            It’s a tool that uses AI to read job descriptions and automatically craft an initial proposal, saving freelancers time.
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-light text-center py-3">© Freelance Finder 2025</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
